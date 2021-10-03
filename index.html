@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McDonald's</title>
+  <link rel="stylesheet" href="css/fonts/fonts.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-body">
+  <div class="container">
+    <header class="page-header">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Студия Хэппи</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Обратная связь</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Для прессы</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Сотрудничество</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">Москва</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="main-menu">
+        <a class="logo">
+          <img class="logo__image" src="img/logo.svg" width="50" height="45" alt="Логотип сайта McDonald's">
+        </a>
+        <ul class="site-list site-list--closed site-list--nojs">
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Меню</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Мы на карте</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Новинки и акции</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">МакКафе</a>
+          </li>
+          <li class="site-list__item">
+            <a class="site-list__link" href="#">Качество</a>
+          </li>
+        </ul>
+        <button class="main-menu__basket">Корзина</button>
+      </div>
+      <section class="bigmack-action">
+        <div class="bigmack-action__card">
+          <picture class="bigmack-action__picture">
+            <source type="image/webp" media="(min-width: 1440px)" srcset="img/bigmac-desktop@1x.webp 1x, img/bigmac-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/bigmac-tablet@1x.webp 1x, img/bigmac-tablet@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 320px)" srcset="img/bigmac-mobile@1x.webp 1x, img/bigmac-mobile@2x.webp 2x">
+            <img class="bigmack-action__photo" src="img/bigmac-mobile@1x.png" srcset="img/bigmac-mobile@2x.png" width="484" height="350" alt="Фото бигмака">
+          </picture>
+        </div>
+        <div class="bigmac-action__about">
+          <span class="bigmack-action__name">Акция “МАК ДЛЯ ВСЕХ”</span>
+          <h1>Биг Мак каждому!</h1>
+          <p>
+            Лучший бургер по баснословно низкой цене.<br>
+            С 1 26 Марта успейте забрать Биг Мак со скидкой<br>
+            и получите молочный коктейль в подарок.
+          </p>
+          <div class="bigmack-action__price">
+            <p>299.99 ₽</p>
+            <p>95.99 ₽</p>
+          </div>
+          <button class="bigmack-action__buy buy">
+            <svg class="buy__basket" width="25" height="25">
+              <use xlink:href="img/sprite.svg#icon-basket"></use>
+            </svg>
+            Купить
+          </button>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="advantages__introduction">
+          <h2>Почему именно Биг Мак?</h2>
+          <p>Мы считаем, что мак является одним из наших лучших блюд которое каждый обязан попробовать.</p>
+        </div>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <svg class="advantages__icon advantages__icon--leaf" width="67" height="67">
+              <use xlink:href="img/sprite.svg#icon-leaf"></use>
+            </svg>
+            <h3>Натуральность</h3>
+            <p>
+              Наш Мак состоит из 100% натуральной говядины на булочке с кунжутом, поджаренной в тостере, маринованными огурчиками, луком, свежим салатом «Айсберг».
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon advantages__icon--pig" width="83" height="79">
+              <use xlink:href="img/sprite.svg#icon-pig"></use>
+            </svg>
+            <h3>Выгода</h3>
+            <p>
+              Благодаря акции на Мак вы сможете приобрести не только этот вкуснейший бургер но так же выбрать комбо наборы с “Мак Комбо” которые вы получите со скидкой до 50%
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon advantages__icon--present" width="83" height="79">
+              <use xlink:href="img/sprite.svg#icon-present"></use>
+            </svg>
+            <h3>Все для друзей</h3>
+            <p>
+              При покупке от 3 маков вы получаете
+              бусплатную пачку хрустящей картошки фри и латте к каждому из них.<br>
+              Делиться приятно :)
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="kit">
+        <div class="kit__view">
+          <h2>МакКомбо</h2>
+          <picture class="kit__picture">
+            <source type="image/webp" media="(min-width: 1440px)" srcset="img/maccombo-desktop@1x.webp 1x, img/maccombo-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" srcset="img/maccombo-tablet@1x.webp 1x, img/maccombo-tablet@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 320px)" srcset="img/maccombo-mobile@1x.webp 1x, img/maccombo-mobile@2x.webp 2x">
+            <img class="bigmack-action__photo" src="img/maccombo-mobile@1x.png" srcset="img/maccombo-mobile@2x.png" width="290" height="290" alt="Фото Маккомбо">
+          </picture>
+        </div>
+        <div class="kit__description">
+          <h2>Биг Мак МакКомбо Большой</h2>
+          <p>
+            Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
+          </p>
+        </div>
+        <div class="kit__price">
+          <p>95.99 ₽</p>
+          <button class="kit__buy buy">
+            <svg class="buy__basket" width="25" height="25">
+              <use xlink:href="img/sprite.svg#icon-basket"></use>
+            </svg>
+            Купить
+          </button>
+        </div>
+      </section>
+      <section class="catalog">
+        <h2>Дополните свой БигМак</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <img class="catalog__image" src="img/latte-double.png" width="270" height="279" alt="Фото двойного латте">
+            <h3>Хорошая пара с Лате</h3>
+            <p>Два Латте 0,3 по специальной цене!</p>
+            <button class="catalog__price">120 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--irish">
+            <img class="catalog__image" src="img/irish.png" width="270" height="279" alt="Фото кофе Айриш">
+            <h3>Айриш Капучино</h3>
+            <p>Классический капучино с воздушной молочной пенкой и сиропом со вкусом сливочного ликера...</p>
+            <button class="catalog__price">158 ₽</button>
+          </li>
+          <li class="catalog__item">
+            <img class="catalog__image" src="img/americano.png" width="270" height="279" alt="Фото кофе Американо">
+            <h3>Американо Большой</h3>
+            <p>Кофе черный.</p>
+            <button class="catalog__price">128 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--punch">
+            <img class="catalog__image catalog__image__punch" src="img/punch.png" width="270" height="279" alt="Фото ягодного пунша">
+            <h3>Ягодный Пунш</h3>
+            <p>Встречайте — снова в меню! Горячий напиток на основе натурального пюре из ягод <span class="catalog__punch-description">малины и черной</span>...</p>
+            <button class="catalog__price catalog__price--punch">99 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--coca-cola">
+            <img class="catalog__image" src="img/coca-cola.png" width="270" height="279" alt="Фото Кока-Кола">
+            <h3>Кока-Кола средняя</h3>
+            <p>Прохладительный газированный напиток «Кока-Кола»®.</p>
+            <button class="catalog__price">35.99 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--sause-garlic">
+            <img class="catalog__image" src="img/sause-garlic.png" width="270" height="279" alt="Фото чесночного соуса">
+            <h3>Соус Чесночный</h3>
+            <p>Пикантный соус с нежным сливочно-чесночным вкусом.</p>
+            <button class="catalog__price">30 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--sause-cheese">
+            <img class="catalog__image" src="img/sause-cheese.png" width="270" height="279" alt="Фото сырного соуса">
+            <h3>Соус Сырный</h3>
+            <p>Соус со вкусом сыра</p>
+            <button class="catalog__price">30 ₽</button>
+          </li>
+          <li class="catalog__item catalog__item--sause-teriyaki">
+            <img class="catalog__image" src="img/sause-teriyaki.png" width="270" height="279" alt="Фото соуса Терияки">
+            <h3>Соус Терияки</h3>
+            <p>Классический  солоновато-сладкий соус  Азиатской  кухни на основе соевого соуса.</p>
+            <button class="catalog__price">30 ₽</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="coockies">
+        <a class="coockies__link" href="#">
+          <img class="coockies__logo" src="img/logo.svg" width="68" height="60" alt="Логотип сайта McDonald's">
+        </a>
+        <p>
+          Мы используем cookies, чтобы вам было удобнее пользоваться сайтом. Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных
+        </p>
+      </div>
+      <div class="about-company">
+        <h4>О нас</h4>
+        <ul class="about-company__list">
+          <li class="about-company__item">МакДоставка</li>
+          <li class="about-company__item">Новости</li>
+          <li class="about-company__item">Франчайзинг</li>
+          <li class="about-company__item">Благотворительность</li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <h4>Контакты</h4>
+        <ul class="contacts__list">
+          <li class="contacts__item">Обратная связь</li>
+          <li class="contacts__item">Для прессы</li>
+          <li class="contacts__item">Сотрудничество</li>
+          <li class="contacts__item">Макдоналдс в России</li>
+        </ul>
+      </div>
+      <div class="social">
+        <h4>Подписывайтесь на рассылку</h4>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link">
+              <svg class="social__vkontakte" width="40" height="40">
+                <use xlink:href="img/sprite.svg#icon-vkontakte"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <svg class="social__instagram" width="40" height="40">
+                <use xlink:href="img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <svg class="social__whatsapp" width="40" height="40">
+                <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <svg class="social__facebook" width="40" height="40">
+                <use xlink:href="img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link">
+              <svg class="social__video" width="40" height="40">
+                <use xlink:href="img/sprite.svg#icon-video"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <ul class="copyright__list">
+          <li class="copyright__item">
+            Контакт-центр<a class="copyright__link" href="tel:+74951909999"> 8 (495) 190 99 99</a>
+          </li>
+          <li class="copyright__item">Правовая информация</li>
+          <li class="copyright__item">2021 © McDonald's Corporation</li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
