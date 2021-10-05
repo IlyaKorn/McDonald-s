@@ -31,10 +31,10 @@
     <path d="M20 0C8.96 0 0 8.96 0 20C0 31.04 8.96 40 20 40C31.04 40 40 31.04 40 20C40 8.96 31.04 0 20 0ZM20 31.84C13.46 31.84 8.16 26.54 8.16 20C8.16 13.46 13.46 8.16 20 8.16C26.54 8.16 31.84 13.46 31.84 20C31.84 26.54 26.54 31.84 20 31.84ZM20 9.62C14.28 9.62 9.62 14.28 9.62 20C9.62 25.72 14.28 30.38 20 30.38C25.72 30.38 30.38 25.72 30.38 20C30.38 14.28 25.72 9.62 20 9.62ZM16.14 25.9V14.1L26.36 20L16.14 25.9Z" fill="#E9E9E9"/>
   </symbol>
   <symbol id="icon-checkbox-off" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0.5" y="0.5" width="14" height="14" rx="1.5" fill="white" stroke="#E9E9E9"/>
+    <rect x="0.5" y="0.5" width="14" height="14" rx="1.5"/>
   </symbol>
-  <symbol id="icon-checkbox-on" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M2.5 7.5L6.25 11.25L12.5 3.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <symbol id="icon-checkbox-on" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.5 5.5L5.25 9.25L11.5 1.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
   <symbol id="icon-radio-off" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle cx="7.5" cy="7.5" r="7" fill="white" stroke="#E9E9E9"/>

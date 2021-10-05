@@ -13,13 +13,13 @@
   <div class="container">
     <header class="page-header">
       <ul class="navigation__list">
-        <li class="navigation__item">
+        <li class="navigation__item navigation__item--studio">
           <a class="navigation__link" href="#">Студия Хэппи</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item navigation__item--feedback">
           <a class="navigation__link" href="#">Обратная связь</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item navigation__item--press">
           <a class="navigation__link" href="#">Для прессы</a>
         </li>
         <li class="navigation__item navigation__item--partners">
@@ -278,6 +278,157 @@
         </ul>
       </div>
     </footer>
+  </div>
+  <div class="popup">
+    <div class="popup__description">
+      <img class="popup__image" src="img/bigmack-popup.png" width="200" height="200" alt="Фото Бигмака">
+      <h5>Биг Мак</h5>
+      <p>
+        Большой бургер с двумя рублеными бифштексами из 100% говядины на булочке с кунжутом, поджаренной в тостере, маринованными огурчиками, луком, свежим салатом «Айсберг», ломтиком плавленого сыра «Чеддер» и специальным соусом «Биг Мак».
+      </p>
+    </div>
+    <form action="https://CucumberRick.ru" method="POST">
+      <div class="ingredients">
+        <fieldset class="ingredients__additionally">
+          <legend class="ingredients__title--wishes">Особые пожелания</legend>
+            <label for="checkbox-salad">
+              Убрать Салат
+              <input id="checkbox-salad" type="checkbox" name="salad" class="ingredients__checkbox visually-hidden" checked>
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-sause-cheese">
+              Убрать Сыр
+              <input id="checkbox-sause-cheese" type="checkbox" name="sause-cheese" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-salt">
+              Убрать Соль
+              <input id="checkbox-salt" type="checkbox" name="salt" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-steak">
+              Убрать Бифштекс
+              <input id="checkbox-steak"  type="checkbox" name="steak" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-sause-bigmack">
+              Убрать Соус Биг Мак
+              <input id="checkbox-sause-bigmack" type="checkbox" name="sause-bigmack" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-onion">
+              Убрать Лук восст.
+              <input id="checkbox-onion" type="checkbox" name="onion" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-cheese">
+              Дополнительно Сыр
+              <input id="checkbox-cheese" type="checkbox" name="cheese" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on" width="10" height="7">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+            <label for="checkbox-cucumber">
+              Убрать Огурец маринов.
+              <input id="checkbox-cucumber" type="checkbox" name="cucumber" class="ingredients__checkbox visually-hidden">
+              <svg class="ingredients__checkbox-on">
+                <use xlink:href="img/sprite.svg#icon-checkbox-on" width="10" height="7"></use>
+              </svg>
+              <svg class="ingredients__checkbox-off" width="15" height="15">
+                <use xlink:href="img/sprite.svg#icon-checkbox-off"></use>
+              </svg>
+            </label>
+        </fieldset>
+        <fieldset class="ingredients__drink">
+          <legend>Напиток</legend>
+          <label for="radio-coca-cola">
+            Кока-Кола
+            <input id="radio-coca-cola" type="radio" name="radio-button" class="ingredients__radio visually-hidden" checked>
+            <svg class="ingredients__radio-on" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-on"></use>
+            </svg>
+            <svg class="ingredients__radio-off" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-off"></use>
+            </svg>
+          </label>
+          <label for="radio-coca-cola-zero">
+            Кока-Кола Зеро
+            <input id="radio-coca-cola-zero" type="radio" name="radio-button" class="ingredients__radio visually-hidden">
+            <svg class="ingredients__radio-on" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-on"></use>
+            </svg>
+            <svg class="ingredients__radio-off" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-off"></use>
+            </svg>
+          </label>
+          <label for="radio-americano" class="ingredients__americano">
+            Американо большой
+            <input id="radio-americano" type="radio" name="radio-button" class="ingredients__radio visually-hidden">
+            <svg class="ingredients__radio-on" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-on"></use>
+            </svg>
+            <svg class="ingredients__radio-off" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-off"></use>
+            </svg>
+          </label>
+          <label for="radio-sprite" class="ingredients__sprite">
+            Спрайт
+            <input id="radio-sprite" type="radio" name="radio-button" class="ingredients__radio visually-hidden">
+            <svg class="ingredients__radio-on" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-on"></use>
+            </svg>
+            <svg class="ingredients__radio-off" width="15" height="15">
+              <use xlink:href="img/sprite.svg#icon-radio-off"></use>
+            </svg>
+          </label>
+        </fieldset>
+        <div class="popup__price">
+          <div class="total">
+            <p>Итого:</p>
+            <p>95.99 ₽</p>
+          </div>
+          <div class="amount">
+            <button type="button" class="amount__minus"></button>
+            <p>1</p>
+            <button type="button" class="amount__plus"></button>
+            <button type="submit" class="popup__push">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 </body>
 </html>
