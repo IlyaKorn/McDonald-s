@@ -220,13 +220,20 @@
     left: 74px;
   }
 
+  .kit {
+    overflow-x:visible;
+    width: 768px;
+  }
+
   .kit__view h2 {
+    width: 158px;
+    margin-left: 276px;
     margin-bottom: 75px;
   }
 
   .kit__view h2::after {
     bottom: -14px;
-    left: 265px;
+    left: -10px;
   }
 
   .kit__picture {
@@ -685,14 +692,20 @@
     font-size: 16px;
     line-height: 18px;
   }
-
+  
+  .kit {
+    width: 1440px;
+  }
+  
   .kit__view h2 {
     font-size: 40px;
     line-height: 46px;
+    width: 211px;
+    margin-left: 535px;
   }
 
   .kit__view h2::after {
-    left: 552px;
+    left: 16px;
   }
 
   .kit__picture {

@@ -276,6 +276,10 @@ body {
   left: 103px;
 }
 
+.kit {
+  overflow-x: hidden;
+}
+
 .kit__view {
   margin-bottom: 39px;
 }
@@ -563,6 +567,9 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
   display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
 }
 
 .popup__image {

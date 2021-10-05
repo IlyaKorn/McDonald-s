@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="site about Ronald McDonald">
   <title>McDonald's</title>
+  <link rel="preload" as="font">
   <link rel="stylesheet" href="css/fonts/fonts.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/adaptability.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 </head>
 <body>
   <div class="container">
@@ -125,25 +128,78 @@
         </ul>
       </section>
       <section class="kit">
-        <div class="kit__view">
-          <h2>МакКомбо</h2>
-        </div>
-        <div class="kit__offer">
-          <div class="kit__picture"></div>
-          <div class="kit__description">
-            <h2>Биг Мак МакКомбо Большой</h2>
-            <p>
-              Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
-            </p>
-            <div class="kit__price">
-              <p>95.99 ₽</p>
-              <button class="kit__buy buy">
-                <svg class="buy__basket" width="25" height="25">
-                  <use xlink:href="img/sprite.svg#icon-basket"></use>
-                </svg>
-                Купить
-              </button>
+        <div class="image-slider swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="kit__view">
+                <h2>МакКомбо</h2>
+              </div>
+              <div class="kit__offer">
+                <div class="kit__picture"></div>
+                <div class="kit__description">
+                  <h2>Биг Мак МакКомбо Большой</h2>
+                  <p>
+                    Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
+                  </p>
+                  <div class="kit__price">
+                    <p>95.99 ₽</p>
+                    <button class="kit__buy buy">
+                      <svg class="buy__basket" width="25" height="25">
+                        <use xlink:href="img/sprite.svg#icon-basket"></use>
+                      </svg>
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="swiper-slide">
+              <div class="kit__view">
+                <h2>МакКомбо</h2>
+              </div>
+              <div class="kit__offer">
+                <div class="kit__picture"></div>
+                <div class="kit__description">
+                  <h2>Биг Мак МакКомбо Большой</h2>
+                  <p>
+                    Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
+                  </p>
+                  <div class="kit__price">
+                    <p>95.99 ₽</p>
+                    <button class="kit__buy buy">
+                      <svg class="buy__basket" width="25" height="25">
+                        <use xlink:href="img/sprite.svg#icon-basket"></use>
+                      </svg>
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="kit__view">
+                <h2>МакКомбо</h2>
+              </div>
+              <div class="kit__offer">
+                <div class="kit__picture"></div>
+                <div class="kit__description">
+                  <h2>Биг Мак МакКомбо Большой</h2>
+                  <p>
+                    Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
+                  </p>
+                  <div class="kit__price">
+                    <p>95.99 ₽</p>
+                    <button class="kit__buy buy">
+                      <svg class="buy__basket" width="25" height="25">
+                        <use xlink:href="img/sprite.svg#icon-basket"></use>
+                      </svg>
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -430,5 +486,8 @@
       </div>
     </form>
   </div>
+  <script src="js/libs/jquery/jquery-.3.6.0.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
