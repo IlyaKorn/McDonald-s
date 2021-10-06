@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="site about Ronald McDonald">
   <title>McDonald's</title>
-  <link rel="preload" as="font">
+  <link rel="preload" href="fonts/Ubuntu-Regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/Ubuntu-Medium.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/Ubuntu-Bold.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/Insanibu.woff2" as="font" type="font/woff2" crossorigin="">
   <link rel="stylesheet" href="css/fonts/fonts.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/adaptability.css">
@@ -128,7 +131,7 @@
         </ul>
       </section>
       <section class="kit">
-        <div class="image-slider swiper-container">
+        <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="kit__view">
@@ -155,7 +158,7 @@
             </div>
             <div class="swiper-slide">
               <div class="kit__view">
-                <h2>МакКомбо</h2>
+                <h2>Снова МакКомбо</h2>
               </div>
               <div class="kit__offer">
                 <div class="kit__picture"></div>
@@ -178,7 +181,7 @@
             </div>
             <div class="swiper-slide">
               <div class="kit__view">
-                <h2>МакКомбо</h2>
+                <h2>И еще МакКомбо!</h2>
               </div>
               <div class="kit__offer">
                 <div class="kit__picture"></div>
@@ -199,8 +202,31 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+              <div class="kit__view">
+                <h2>Теперь я хочу есть</h2>
+              </div>
+              <div class="kit__offer">
+                <div class="kit__picture"></div>
+                <div class="kit__description">
+                  <h2>Биг Мак МакКомбо Большой</h2>
+                  <p>
+                    Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.
+                  </p>
+                  <div class="kit__price">
+                    <p>95.99 ₽</p>
+                    <button class="kit__buy buy">
+                      <svg class="buy__basket" width="25" height="25">
+                        <use xlink:href="img/sprite.svg#icon-basket"></use>
+                      </svg>
+                      Купить
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
       <section class="catalog">

@@ -220,14 +220,9 @@
     left: 74px;
   }
 
-  .kit {
-    overflow-x:visible;
-    width: 768px;
-  }
-
   .kit__view h2 {
     width: 158px;
-    margin-left: 276px;
+    margin-left: 305px;
     margin-bottom: 75px;
   }
 
@@ -240,7 +235,6 @@
     width: 360px;
     height: 402px;
     background: url('../img/bigmac-combo-tablet.png') no-repeat;
-    margin-left: -30px;
     background-position: -66px 0px;
     margin-bottom: 0;
     margin-top: -30px;
@@ -282,7 +276,7 @@
   }
 
   .kit__buy {
-    margin-bottom: 62px;
+    margin-bottom: 28px;
   }
 
   .catalog__list {
@@ -336,6 +330,7 @@
 
   .catalog__item--coca-cola p {
     margin-bottom: 14px;
+    width: 190px;
   }
 
   .catalog__item--sause-garlic p {
@@ -501,6 +496,16 @@
     margin-bottom: 46px;
     margin-right: 20px;
   }
+
+  .kit .swiper {
+    margin-left: -30px;
+  } 
+
+  .kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    position: absolute;
+    top: 73px;
+    left: 296px;
+  };
 }
 
 @media (min-width: 1440px) {
@@ -700,15 +705,11 @@
     line-height: 18px;
   }
   
-  .kit {
-    width: 1440px;
-  }
-  
   .kit__view h2 {
     font-size: 40px;
     line-height: 46px;
     width: 211px;
-    margin-left: 535px;
+    margin-left: 614px;
   }
 
   .kit__view h2::after {
@@ -719,11 +720,9 @@
     width: 694px;
     height: 672px;
     background: url('../img/bigmack-combo-desktop.png') no-repeat;
-    margin-left: -30px;
     background-position: -65px 0px;
-    margin-bottom: 82px;
-    margin-left: -80px;
     margin-top: -30px;
+    margin-bottom: 36px;
   }
 
   .kit__description {
@@ -752,6 +751,10 @@
     font-size: 50px;
     line-height: 57px;
     margin-right: 40px;
+    margin-bottom: 0;
+  }
+
+  .kit__buy {
     margin-bottom: 0;
   }
 
@@ -815,6 +818,7 @@
 
   .catalog__item--coca-cola p {
     margin-bottom: 46px;
+    width: auto;
   }
 
   .catalog__item--sause-garlic p {
@@ -895,4 +899,20 @@
   .amount__plus {
     margin-right: 101px;
   }
+
+  .swiper-pagination {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .kit .swiper {
+    margin-left: -80px;
+  } 
+
+  .kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    position: absolute;
+    top: 164px;
+    left: 539px;
+  };
 }

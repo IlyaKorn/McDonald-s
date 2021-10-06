@@ -33,6 +33,10 @@ $(document).ready(function() {
 
 
 /*Slider*/
-new Swiper('.image-slider', {
-
+new Swiper('.mySwiper', {
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  spaceBetween: 80,
 });

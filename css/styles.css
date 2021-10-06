@@ -278,7 +278,7 @@ body {
 }
 
 .kit {
-  overflow-x: hidden;
+  max-width: 1440px;
 }
 
 .kit__view {
@@ -352,6 +352,10 @@ body {
   color: var(--orange);
   margin: 0;
   margin-bottom: 20px;
+}
+
+.kit__price p::after {
+  display: none;
 }
 
 .catalog h2 {
@@ -832,3 +836,22 @@ body {
   width: 270px;
   margin-top: 20px;
 }
+
+.swiper .swiper-pagination-bullet  {
+  width: 10px;
+  height: 10px;
+}
+
+.swiper .swiper-pagination-bullet-active  {
+  width: 30px;
+  height: 10px;
+  background-color: var(--orange);
+  border-radius: 8px;
+}
+
+.kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  position: absolute;
+  top: 384px;
+  left: 0;
+  z-index: -2
+};
