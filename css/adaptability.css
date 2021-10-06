@@ -504,7 +504,7 @@
   .kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     position: absolute;
     top: 73px;
-    left: 296px;
+    left: 616px;
   };
 }
 
@@ -913,6 +913,6 @@
   .kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     position: absolute;
     top: 164px;
-    left: 539px;
+    left: 1169px;
   };
 }

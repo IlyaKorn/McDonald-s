@@ -852,6 +852,7 @@ body {
 .kit .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
   position: absolute;
   top: 384px;
-  left: 0;
-  z-index: -2
+  left: 90px;
+  width: 100px;
+  height: 90px;
 };
