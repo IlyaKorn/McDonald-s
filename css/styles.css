@@ -171,6 +171,7 @@ body {
   border-radius: 8px;
   position: relative;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 
 .buy__basket {
@@ -589,7 +590,7 @@ body {
   border-radius: 8px;
   position: absolute;
   left: calc(50% - 145px);
-  top: 50%;
+  top: calc(50% - 536px);
 }
 
 .popup__image {
