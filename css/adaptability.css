@@ -404,10 +404,17 @@
   }
 
   .popup {
-    padding: 30px;
-    width: 688px;
+    width: 768px;
     box-sizing: border-box;
     margin: 0 auto;
+  }
+
+  .popup__page {
+    width: 688px;
+    padding: 30px;
+    left: calc(50% - 344px);
+    top: calc(50% - 254px);
+    display: flex;
   }
 
   .popup label {
@@ -866,8 +873,14 @@
   }
 
   .popup {
+    width: 1440px;
+  }
+
+  .popup__page {
     width: 820px;
-    padding: 40px 30px 30px 30px;
+    left: calc(50% - 410px);
+    top: calc(50% - 244px);
+    display: flex;
   }
 
   .popup__description p {
